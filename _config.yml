@@ -1,0 +1,38 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               words.md
+tagline:             human readable
+url:                 http://thomas.hils.us
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Thomas Hils
+  url:               https://twitter.com/tjhils
+  email:             thomas@Hils.us
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+
+exclude: [s3_website.yml]
+
+
