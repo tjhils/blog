@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 
@@ -39,7 +39,7 @@ a {
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   strong {
@@ -75,4 +75,8 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
+}
+
+h3 {
+  font-family: 'Merriweather', san-serif;
 }
